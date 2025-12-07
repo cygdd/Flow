@@ -1,0 +1,7 @@
+{
+  "name": "Gesture Particle Flow",
+  "description": "A real-time interactive particle system controlled by hand gestures. Shape-shift between Heart, Flower, and Fireworks using wave gestures or UI controls.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
