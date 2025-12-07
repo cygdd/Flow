@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Gesture Particle Flow</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        neon: {
+                            pink: '#ff007f',
+                            blue: '#00f3ff',
+                            purple: '#9d00ff',
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        /* 关键修改：确保 html, body 和 root 都是 100% 高度 */
+        
+        html,
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #050505;
+            overflow: hidden;
+            height: 100%;
+            width: 100%;
+        }
+        
+        #root {
+            height: 100%;
+            width: 100%;
+        }
+        
+        canvas {
+            display: block;
+        }
+    </style>
+
+    <link rel="stylesheet" href="/index.css">
+    <script type="importmap">
+        { "imports": { "@mediapipe/tasks-vision": "https://aistudiocdn.com/@mediapipe/tasks-vision@^0.10.22-rc.20250304", "react": "https://aistudiocdn.com/react@^19.2.1", "react/": "https://aistudiocdn.com/react@^19.2.1/", "lucide-react": "https://aistudiocdn.com/lucide-react@^0.556.0",
+        "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.1/" } }
+    </script>
+  <script type="module" crossorigin src="/Flow/assets/index-C-miLMmt.js"></script>
+</head>
+
+<body>
+    <div id="root"></div>
+</body>
+
+</html>
